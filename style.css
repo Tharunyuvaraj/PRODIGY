@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("cy.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    
+   
+   
+    
+}
+.lo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 64, 0);
+    
+    font-size: 50px;
+    padding-left: 30px;
+}
+.nav{
+    top:0px;
+    width: 1950px;
+    height: 80px;
+    position: fixed;
+    background:linear-gradient(to left,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%);
+   
+} 
+.icon{
+   
+    float:left;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.menu{
+    width: 750px;
+    float:inline-start;
+    height:70px;
+    position: relative;
+    margin-left: 10%;
+    
+}  
+ul{
+    display: flex;
+    justify-content: center;
+    float: left;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    justify-content: center;
+
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 0.9s ease;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: rgb(255, 64, 0);
+    font-size:large;
+    transform: translateY(-10px);
+    transition: 0.9s;
+    font-size: 22px;
+}
+ul li a{
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
+.srh{
+    width: 330px;
+    float:left;
+    margin-right: 10px;
+    margin-left: 5%;
+    top:15px;
+    
+    position:relative;
+    
+    
+    
+}
+.s{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    width: 190px;
+    height: 45px;
+    background: transparent;
+    
+    border-color: rgb(255, 64, 0);
+    color: antiquewhite;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.btn{
+    width: 100px;
+    background-color: rgb(255, 64, 0);
+    height: 45px;
+    color: rgb(252, 234, 234);
+    border-top-right-radius:  10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.btn:hover{
+    letter-spacing: 1.5px;
+    font-size: 17px;
+    transition: 0.90s;
+    background-color:rgb(255, 64, 0);
+    color:antiquewhite;
+    box-shadow: #e40505 0px 7px 29px 0px;
+}
+.btn:active{
+    letter-spacing: 2px;
+    transition: 0.30s;
+    background-color: #ee1414;
+    color: aliceblue;
+    
+    transform:translateX(-5px);
+}
+.con{
+    width:1100px;
+    height: 400px;
+    margin-left: 50px;
+    background:linear-gradient(to left,rgba(0,0,0,0.7)30%,rgba(0,0,0,0.7)30%);
+    position: relative;
+    margin-top: 15%;
+    margin-left: 5%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.con.p{
+    
+    padding-top: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    margin-left: 2%;
+    
+}
+p{
+    margin-top: 1%;
+    font-size: 35px;
+    padding-left: 10px;
+    margin-left: 2%;
+    color: antiquewhite;
+}
+h1{
+    font-size: 70px;
+    padding-left: 10px;
+    margin-left: 2%;
+}
+.bt1{
+    height: 40px;
+    width: 130px;
+    font-size: large;
+    background-color: rgb(255, 64, 0);
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.bt1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+
+}
+.bt1:hover{
+    letter-spacing: 1px;
+    font-size: 17px;
+    transition: 0.90s;
+    background-color:rgb(250, 250, 249);
+    color:antiquewhite;
+    box-shadow: #e40505 0px 7px 20px 1px;
+    transition: 0.4s ease-in-out;
+    height: 35px;
+    width: 125px;
+}
+.bt1:active{
+    
+    transition: 0.30s;
+    background-color:rgb(250, 97, 46);
+    color: aliceblue;
+    
+    transform:translateY(-5px);
+}
+.form{
+    
+    width: 340px;
+    height: 500px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top:-20px;
+    left: 1300px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    color: antiquewhite;
+    width: 300px;
+    height: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(250, 97, 46);
+    align-items: center;
+    font-size: 23px;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    padding-top: 13px;
+}
+.form input{
+    width: 300px;
+    height: 30px;
+    background: transparent;
+    border-bottom:2px solid rgb(250, 97, 46);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    margin-top: 45px;
+    margin-left: 6%;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman';
+}
+.bt2{
+    width: 70px;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Times New Roman';
+    background-color: rgb(255, 64, 0);
+    color: aliceblue;
+    border-radius: 9px;
+    border: none;
+    margin-top: 12%;
+    margin-left: 39%;
+}
+.bt2 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+   
+}
+.bt2:hover{
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: 0.90s;
+    background-color:rgb(255,64,0);
+    color:antiquewhite;
+    box-shadow: rgb(255,64,0) 0px 7px 20px 1px;
+    transition: 0.4s ease-in-out;
+    height: 45px;
+    width: 75px;
+    cursor: pointer;
+}
+.Li{
+    font-size:20px;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+    padding-left: 21px;
+    margin-top: 8%;
+}
+.Li a{
+    text-decoration: none;
+    color: rgb(255, 64, 0);
+}
+h3{
+    padding-top: 19px;
+    color: aliceblue;
+    padding-left: 120px;
+    font-size: 22px;
+}
+.icon{
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+}
+.icon ion-icon{
+    
+    font-size: 40px;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 22px;
+    
+    
+}
+.icon ion-icon:hover{
+    color: rgb(255,64,0)
+}
+
+@media screen and (max-width:830px){
+    /* Tablet*/
+    .con{
+        
+        width: 700px;
+        margin-left: 40px;
+        height: 400;
+        margin-top: 35%;
+    }
+    .con h1{
+        font-size: 7vw;
+        padding-left: 22%;
+        margin-top: 3%;
+    }
+    .con .p{
+        width: 670px;
+        height: 20px;
+        font-size: 24px;
+    }
+    .con a{
+        font-size: 2vw;
+    }
+    .lo{
+        margin-left: 220px;
+        width: 100%;
+        margin-top: 12px;
+        font-size: 5vw;
+    }
+    .bt1{
+        margin-top: 20%;
+        margin-left: 4%;
+    }
+    .menu{
+        
+        margin-top: 5%;
+        right: 84vw;
+        background: linear-gradient(to top,rgba(0,0,0,0.3)40%,rgba(0,0,0,0.3)40%);
+        width: 700px;
+        height: 50px;
+        margin-left: 11%;
+        
+        
+        
+    }
+    menu ul{
+       
+       justify-content:space-evenly;
+       margin-top: 14%;
+       margin-left: 70px;
+       position:fixed;
+       
+       
+    }
+    ul li{
+        
+       justify-content:space-evenly;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        float: left;
+        
+    }
+    ul li a{
+        font-size: 17px;
+        
+    }
+    .srh{
+        margin-top: -3%;
+        margin-right: 80%;
+
+    }
+    .s{
+        height:30px;
+        width: 200px;
+        font-size: 22px;
+        right: 80vw;
+        background: transparent;
+        margin-top: 20%;
+        margin-left: 5%;
+    }
+    body{
+        
+            background: url("cy.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: repeat;
+    
+    }
+    .btn{
+        width: 80px;
+        background-color: rgb(255, 64, 0);
+        height: 30px;
+        color: rgb(252, 234, 234);
+        border-top-right-radius:  10px;
+        border-bottom-left-radius: 10px;
+        font-size: 17px;
+    }
+    .btn:hover{
+        letter-spacing: 1.2px;
+        font-size: 13px;
+        transition: 0.90s;
+        background-color:rgb(255, 64, 0);
+        color:rgb(0, 0, 0);
+        box-shadow: #e40505 0px 0px 5px 2px;
+    }
+    .form{
+    
+        width: 340px;
+        height: 500px;
+        background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position:absolute;
+        top:140%;
+        left: 140px;
+        border-radius: 10px;
+        padding: 25px;
+    }
+}
